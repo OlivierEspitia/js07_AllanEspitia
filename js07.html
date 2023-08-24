@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Fetch</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container  mt-5">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <button id="fetchUsersBtn" class="btn btn-primary mb-3" style="width: 300px; height: 60px; background-color: darkslateblue; font-size: x-large;">Leer usuarios</button>
+            </div>
+        </div>
+      
+        <div id="dataTimestamp" class="text-center mb-3"></div>
+        <div class="table-responsive">
+          
+        </div>
+    </div>
+        <table id="userTable" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Content will be filled using JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./js/js07.js"></script>
+</body>
+
+</html>
